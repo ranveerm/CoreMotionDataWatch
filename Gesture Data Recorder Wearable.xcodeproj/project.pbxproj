@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3A4831B25F0E2FF005FB071 /* Gesture_Data_Recorder_WearableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4831A25F0E2FF005FB071 /* Gesture_Data_Recorder_WearableApp.swift */; };
+		A3A4831D25F0E2FF005FB071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4831C25F0E2FF005FB071 /* ContentView.swift */; };
+		A3A4831F25F0E301005FB071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A4831E25F0E301005FB071 /* Assets.xcassets */; };
+		A3A4832225F0E301005FB071 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A4832125F0E301005FB071 /* Preview Assets.xcassets */; };
+		A3A4832725F0E301005FB071 /* Gesture Data Recorder Wearable WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A3A4832625F0E301005FB071 /* Gesture Data Recorder Wearable WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A3A4832C25F0E302005FB071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A4832B25F0E302005FB071 /* Assets.xcassets */; };
+		A3A4833325F0E302005FB071 /* Gesture Data Recorder Wearable WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A3A4833225F0E302005FB071 /* Gesture Data Recorder Wearable WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A3A4833825F0E302005FB071 /* Gesture_Data_Recorder_WearableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4833725F0E302005FB071 /* Gesture_Data_Recorder_WearableApp.swift */; };
+		A3A4833A25F0E302005FB071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4833925F0E302005FB071 /* ContentView.swift */; };
+		A3A4833C25F0E302005FB071 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4833B25F0E302005FB071 /* NotificationController.swift */; };
+		A3A4833E25F0E302005FB071 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4833D25F0E302005FB071 /* NotificationView.swift */; };
+		A3A4834025F0E302005FB071 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4833F25F0E302005FB071 /* ComplicationController.swift */; };
+		A3A4834225F0E303005FB071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A4834125F0E303005FB071 /* Assets.xcassets */; };
+		A3A4834525F0E303005FB071 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A4834425F0E303005FB071 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3A4832825F0E301005FB071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A4830F25F0E2FF005FB071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3A4832525F0E301005FB071;
+			remoteInfo = "Gesture Data Recorder Wearable WatchKit App";
+		};
+		A3A4833425F0E302005FB071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A4830F25F0E2FF005FB071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3A4833125F0E302005FB071;
+			remoteInfo = "Gesture Data Recorder Wearable WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3A4834D25F0E303005FB071 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A3A4833325F0E302005FB071 /* Gesture Data Recorder Wearable WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A4835125F0E303005FB071 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A3A4832725F0E301005FB071 /* Gesture Data Recorder Wearable WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3A4831725F0E2FF005FB071 /* Gesture Data Recorder Wearable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gesture Data Recorder Wearable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A4831A25F0E2FF005FB071 /* Gesture_Data_Recorder_WearableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture_Data_Recorder_WearableApp.swift; sourceTree = "<group>"; };
+		A3A4831C25F0E2FF005FB071 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3A4831E25F0E301005FB071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3A4832125F0E301005FB071 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3A4832325F0E301005FB071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A4832625F0E301005FB071 /* Gesture Data Recorder Wearable WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gesture Data Recorder Wearable WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A4832B25F0E302005FB071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3A4832D25F0E302005FB071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A4833225F0E302005FB071 /* Gesture Data Recorder Wearable WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Gesture Data Recorder Wearable WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A4833725F0E302005FB071 /* Gesture_Data_Recorder_WearableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture_Data_Recorder_WearableApp.swift; sourceTree = "<group>"; };
+		A3A4833925F0E302005FB071 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3A4833B25F0E302005FB071 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A3A4833D25F0E302005FB071 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A3A4833F25F0E302005FB071 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A3A4834125F0E303005FB071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3A4834425F0E303005FB071 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3A4834625F0E303005FB071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A4834725F0E303005FB071 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3A4831425F0E2FF005FB071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A4832F25F0E302005FB071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3A4830E25F0E2FF005FB071 = {
+			isa = PBXGroup;
+			children = (
+				A3A4831925F0E2FF005FB071 /* Gesture Data Recorder Wearable */,
+				A3A4832A25F0E301005FB071 /* Gesture Data Recorder Wearable WatchKit App */,
+				A3A4833625F0E302005FB071 /* Gesture Data Recorder Wearable WatchKit Extension */,
+				A3A4831825F0E2FF005FB071 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3A4831825F0E2FF005FB071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A4831725F0E2FF005FB071 /* Gesture Data Recorder Wearable.app */,
+				A3A4832625F0E301005FB071 /* Gesture Data Recorder Wearable WatchKit App.app */,
+				A3A4833225F0E302005FB071 /* Gesture Data Recorder Wearable WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3A4831925F0E2FF005FB071 /* Gesture Data Recorder Wearable */ = {
+			isa = PBXGroup;
+			children = (
+				A3A4831A25F0E2FF005FB071 /* Gesture_Data_Recorder_WearableApp.swift */,
+				A3A4831C25F0E2FF005FB071 /* ContentView.swift */,
+				A3A4831E25F0E301005FB071 /* Assets.xcassets */,
+				A3A4832325F0E301005FB071 /* Info.plist */,
+				A3A4832025F0E301005FB071 /* Preview Content */,
+			);
+			path = "Gesture Data Recorder Wearable";
+			sourceTree = "<group>";
+		};
+		A3A4832025F0E301005FB071 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3A4832125F0E301005FB071 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3A4832A25F0E301005FB071 /* Gesture Data Recorder Wearable WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A3A4832B25F0E302005FB071 /* Assets.xcassets */,
+				A3A4832D25F0E302005FB071 /* Info.plist */,
+			);
+			path = "Gesture Data Recorder Wearable WatchKit App";
+			sourceTree = "<group>";
+		};
+		A3A4833625F0E302005FB071 /* Gesture Data Recorder Wearable WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A3A4833725F0E302005FB071 /* Gesture_Data_Recorder_WearableApp.swift */,
+				A3A4833925F0E302005FB071 /* ContentView.swift */,
+				A3A4833B25F0E302005FB071 /* NotificationController.swift */,
+				A3A4833D25F0E302005FB071 /* NotificationView.swift */,
+				A3A4833F25F0E302005FB071 /* ComplicationController.swift */,
+				A3A4834125F0E303005FB071 /* Assets.xcassets */,
+				A3A4834625F0E303005FB071 /* Info.plist */,
+				A3A4834725F0E303005FB071 /* PushNotificationPayload.apns */,
+				A3A4834325F0E303005FB071 /* Preview Content */,
+			);
+			path = "Gesture Data Recorder Wearable WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A3A4834325F0E303005FB071 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3A4834425F0E303005FB071 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3A4831625F0E2FF005FB071 /* Gesture Data Recorder Wearable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A4835225F0E303005FB071 /* Build configuration list for PBXNativeTarget "Gesture Data Recorder Wearable" */;
+			buildPhases = (
+				A3A4831325F0E2FF005FB071 /* Sources */,
+				A3A4831425F0E2FF005FB071 /* Frameworks */,
+				A3A4831525F0E2FF005FB071 /* Resources */,
+				A3A4835125F0E303005FB071 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A4832925F0E301005FB071 /* PBXTargetDependency */,
+			);
+			name = "Gesture Data Recorder Wearable";
+			productName = "Gesture Data Recorder Wearable";
+			productReference = A3A4831725F0E2FF005FB071 /* Gesture Data Recorder Wearable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3A4832525F0E301005FB071 /* Gesture Data Recorder Wearable WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A4834E25F0E303005FB071 /* Build configuration list for PBXNativeTarget "Gesture Data Recorder Wearable WatchKit App" */;
+			buildPhases = (
+				A3A4832425F0E301005FB071 /* Resources */,
+				A3A4834D25F0E303005FB071 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A4833525F0E302005FB071 /* PBXTargetDependency */,
+			);
+			name = "Gesture Data Recorder Wearable WatchKit App";
+			productName = "Gesture Data Recorder Wearable WatchKit App";
+			productReference = A3A4832625F0E301005FB071 /* Gesture Data Recorder Wearable WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A3A4833125F0E302005FB071 /* Gesture Data Recorder Wearable WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A4834A25F0E303005FB071 /* Build configuration list for PBXNativeTarget "Gesture Data Recorder Wearable WatchKit Extension" */;
+			buildPhases = (
+				A3A4832E25F0E302005FB071 /* Sources */,
+				A3A4832F25F0E302005FB071 /* Frameworks */,
+				A3A4833025F0E302005FB071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gesture Data Recorder Wearable WatchKit Extension";
+			productName = "Gesture Data Recorder Wearable WatchKit Extension";
+			productReference = A3A4833225F0E302005FB071 /* Gesture Data Recorder Wearable WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3A4830F25F0E2FF005FB071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A3A4831625F0E2FF005FB071 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A3A4832525F0E301005FB071 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A3A4833125F0E302005FB071 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = A3A4831225F0E2FF005FB071 /* Build configuration list for PBXProject "Gesture Data Recorder Wearable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3A4830E25F0E2FF005FB071;
+			productRefGroup = A3A4831825F0E2FF005FB071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3A4831625F0E2FF005FB071 /* Gesture Data Recorder Wearable */,
+				A3A4832525F0E301005FB071 /* Gesture Data Recorder Wearable WatchKit App */,
+				A3A4833125F0E302005FB071 /* Gesture Data Recorder Wearable WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3A4831525F0E2FF005FB071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A4832225F0E301005FB071 /* Preview Assets.xcassets in Resources */,
+				A3A4831F25F0E301005FB071 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A4832425F0E301005FB071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A4832C25F0E302005FB071 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A4833025F0E302005FB071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A4834525F0E303005FB071 /* Preview Assets.xcassets in Resources */,
+				A3A4834225F0E303005FB071 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3A4831325F0E2FF005FB071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A4831D25F0E2FF005FB071 /* ContentView.swift in Sources */,
+				A3A4831B25F0E2FF005FB071 /* Gesture_Data_Recorder_WearableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A4832E25F0E302005FB071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A4833C25F0E302005FB071 /* NotificationController.swift in Sources */,
+				A3A4833A25F0E302005FB071 /* ContentView.swift in Sources */,
+				A3A4834025F0E302005FB071 /* ComplicationController.swift in Sources */,
+				A3A4833825F0E302005FB071 /* Gesture_Data_Recorder_WearableApp.swift in Sources */,
+				A3A4833E25F0E302005FB071 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3A4832925F0E301005FB071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3A4832525F0E301005FB071 /* Gesture Data Recorder Wearable WatchKit App */;
+			targetProxy = A3A4832825F0E301005FB071 /* PBXContainerItemProxy */;
+		};
+		A3A4833525F0E302005FB071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3A4833125F0E302005FB071 /* Gesture Data Recorder Wearable WatchKit Extension */;
+			targetProxy = A3A4833425F0E302005FB071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3A4834825F0E303005FB071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3A4834925F0E303005FB071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A3A4834B25F0E303005FB071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gesture Data Recorder Wearable WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 29F59849NR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Gesture Data Recorder Wearable WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranveer.Gesture-Data-Recorder-Wearable.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		A3A4834C25F0E303005FB071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gesture Data Recorder Wearable WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 29F59849NR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Gesture Data Recorder Wearable WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranveer.Gesture-Data-Recorder-Wearable.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		A3A4834F25F0E303005FB071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29F59849NR;
+				IBSC_MODULE = Gesture_Data_Recorder_Wearable_WatchKit_Extension;
+				INFOPLIST_FILE = "Gesture Data Recorder Wearable WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranveer.Gesture-Data-Recorder-Wearable.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		A3A4835025F0E303005FB071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29F59849NR;
+				IBSC_MODULE = Gesture_Data_Recorder_Wearable_WatchKit_Extension;
+				INFOPLIST_FILE = "Gesture Data Recorder Wearable WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranveer.Gesture-Data-Recorder-Wearable.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		A3A4835325F0E303005FB071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gesture Data Recorder Wearable/Preview Content\"";
+				DEVELOPMENT_TEAM = 29F59849NR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Gesture Data Recorder Wearable/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranveer.Gesture-Data-Recorder-Wearable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3A4835425F0E303005FB071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gesture Data Recorder Wearable/Preview Content\"";
+				DEVELOPMENT_TEAM = 29F59849NR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Gesture Data Recorder Wearable/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranveer.Gesture-Data-Recorder-Wearable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3A4831225F0E2FF005FB071 /* Build configuration list for PBXProject "Gesture Data Recorder Wearable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A4834825F0E303005FB071 /* Debug */,
+				A3A4834925F0E303005FB071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A4834A25F0E303005FB071 /* Build configuration list for PBXNativeTarget "Gesture Data Recorder Wearable WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A4834B25F0E303005FB071 /* Debug */,
+				A3A4834C25F0E303005FB071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A4834E25F0E303005FB071 /* Build configuration list for PBXNativeTarget "Gesture Data Recorder Wearable WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A4834F25F0E303005FB071 /* Debug */,
+				A3A4835025F0E303005FB071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A4835225F0E303005FB071 /* Build configuration list for PBXNativeTarget "Gesture Data Recorder Wearable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A4835325F0E303005FB071 /* Debug */,
+				A3A4835425F0E303005FB071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3A4830F25F0E2FF005FB071 /* Project object */;
+}
