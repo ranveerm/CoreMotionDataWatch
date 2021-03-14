@@ -2,7 +2,7 @@
 //  Gesture_Data_Recorder_WearableApp.swift
 //  Gesture Data Recorder Wearable WatchKit Extension
 //
-//  Created by Ranveer Mamidpelliwar on 4/3/21.
+//  Created by Ranveer M on 4/3/21.
 //
 
 import SwiftUI
